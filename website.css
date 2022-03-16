@@ -18,14 +18,14 @@ div.nav_menu {
     padding: 10px;
       text-align: center;
     color: gray;
-    font-family: calibri;
+    font-family: "Monaco";
     font-style: bold;
 }
 
 div.welcome-content{
 background-color: #efeded;
 padding: 10px;
-font-family: calibri;
+font-family: "Monaco";
 color: black;
 }
 
@@ -41,7 +41,7 @@ img.profilepic{
 div.text-box-content{
 background-color: #efeded;
 padding: 10px;
-font-family: calibri;
+font-family: "Monaco";
 color: black;
 
 }
@@ -49,7 +49,7 @@ color: black;
 section.Education{
 background-color: #efeded;
 padding: 10px;
-font-family: calibri;
+font-family: "Monaco";
 color: black;
 }
 
@@ -62,14 +62,14 @@ text-align: justify;
 }
 
 p.educated{
-font-family: calibri;
+font-family: "Monaco";
 color: black;
 font-weight: bold;
 margin-left: 12px;
 }
 
 p.educated2{
-font-family: calibri;
+font-family: "Monaco";
 color: black;
 
 margin-left: 20px;
@@ -79,7 +79,7 @@ margin-left: 20px;
 h2{
   font-size: 25px;
   margin-bottom: -5px;
-  font-family: calibri;
+  font-family: "Monaco";
     color: gray;
   text-align: center;
 
@@ -88,7 +88,7 @@ h2{
 h3{
   font-size: 20px;
   margin-bottom: -10px;
-  font-family: calibri;
+  font-family: "Monaco";
     color: gray;
   margin-left: 12px;
 
@@ -101,7 +101,7 @@ a {
  	padding-top: 15px;
 	font-size: 50px;
 	margin-bottom: -10px;
-	font-family: calibri;
+	font-family: "Monaco";
 	color: gray;
  }
 
@@ -112,7 +112,7 @@ a {
     padding: 1px;
       text-align: center;
     color: gray;
-    font-family: calibri;
+    font-family: "Monaco";
     font-style: italic;
 
   }
