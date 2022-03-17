@@ -12,13 +12,19 @@ body {
     height: 150px;
   }
 
+ol {
+    margin-right: 40px;
+}
+.nav_menu ol {
+    margin-right: 10px;
+}
+
 div.nav_menu {
   font-size: 20px;
     height: 30px;
       background-color: powderblue;
     padding: 10px;
       text-align: center;
-	padding-right: 20px;
     color: gray;
 	font-family: 'Karla', sans-serif;
 }
