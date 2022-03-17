@@ -31,7 +31,8 @@ div.welcome-content{
 	font-family: 'Quattrocento Sans', sans-serif;
 	color: black;
 	height: 336px;
-	font-size: 18px;
+	font-size: 30px;
+	letter-spacing: 0.1em;
 }
 
 img.profilepic{
