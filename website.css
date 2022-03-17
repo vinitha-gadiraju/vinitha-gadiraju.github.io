@@ -19,14 +19,14 @@ div.nav_menu {
       text-align: center;
 	padding-right: 20px;
     color: gray;
-    font-family: "Calibri";
+    font-family: "Monaco";
     font-style: bold;
 }
 
 div.welcome-content{
 	background-color: #efeded;
 	padding: 10px;
-	font-family: "Monaco";
+	font-family: "Verdana";
 	color: black;
 	height: 336px;
 	font-size: 18px;
@@ -49,40 +49,11 @@ color: black;
 
 }
 
-section.Education{
-background-color: #efeded;
-padding: 10px;
-font-family: "Monaco";
-color: black;
-}
-
-p.intro{
-margin-left: 20px;
-margin-right: 20px;
-line-height: 1.7;
-text-align: justify;
-
-}
-
-p.educated{
-font-family: "Monaco";
-color: black;
-font-weight: bold;
-margin-left: 12px;
-}
-
-p.educated2{
-font-family: "Monaco";
-color: black;
-
-margin-left: 20px;
-}
-
 
 h2{
   font-size: 25px;
   margin-bottom: -5px;
-  font-family: "Calibri";
+  font-family: "Verdana";
     color: gray;
   text-align: center;
 
