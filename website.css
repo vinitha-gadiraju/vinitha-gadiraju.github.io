@@ -72,7 +72,6 @@ h2{
 .fa {
   padding: 10px;
   font-size: 20px;
-  width: 130px;
   text-align: center;
   text-decoration: none;
   margin: 5px 2px;
@@ -84,12 +83,14 @@ h2{
 
 .fa-twitter {
   background: #55ACEE;
+	width: 130px;
   color: white;
 font-family: 'Quattrocento Sans', sans-serif;
 }
 
 .fa-linkedin {
   background: #007bb5;
+	  width: 150px;
   color: white;
 font-family: 'Quattrocento Sans', sans-serif;
 }
