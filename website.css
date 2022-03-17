@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Quattrocento+Sans&display=swap');
+
 body {
 
   margin: auto;
@@ -26,7 +28,7 @@ div.nav_menu {
 div.welcome-content{
 	background-color: #efeded;
 	padding: 10px;
-	font-family: "Verdana";
+	font-family: 'Quattrocento Sans', sans-serif;
 	color: black;
 	height: 336px;
 	font-size: 18px;
