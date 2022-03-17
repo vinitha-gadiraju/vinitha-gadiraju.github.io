@@ -15,7 +15,8 @@ body {
 div.nav_menu {
 	display: inline-block;
   font-size: 20px;
-    height: 30px;
+    height: 90%;
+	width: 90%;
       background-color: powderblue;
     padding: 10px;
       text-align: center;
