@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Quattrocento+Sans&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Karla&family=Quattrocento+Sans&display=swap');
 body {
 
   margin: auto;
@@ -21,8 +20,7 @@ div.nav_menu {
       text-align: center;
 	padding-right: 20px;
     color: gray;
-    font-family: "Monaco";
-    font-style: bold;
+	font-family: 'Karla', sans-serif;
 }
 
 div.welcome-content{
@@ -31,7 +29,7 @@ div.welcome-content{
 	font-family: 'Quattrocento Sans', sans-serif;
 	color: black;
 	height: 336px;
-	font-size: 30px;
+	font-size: 25px;
 	letter-spacing: 0.1em;
 }
 
@@ -47,7 +45,7 @@ img.profilepic{
 div.text-box-content{
 background-color: #efeded;
 padding: 10px;
-font-family: "Monaco";
+	font-family: 'Quattrocento Sans', sans-serif;
 color: black;
 
 }
@@ -56,29 +54,17 @@ color: black;
 h2{
   font-size: 25px;
   margin-bottom: -5px;
-  font-family: "Verdana";
+	font-family: 'Quattrocento Sans', sans-serif;
     color: gray;
   text-align: center;
 
-}
-
-h3{
-  font-size: 20px;
-  margin-bottom: -10px;
-  font-family: "Monaco";
-    color: gray;
-  margin-left: 12px;
-
-}
-a {
-	color: gray;
 }
 
  h1 {
  	padding-top: 15px;
 	font-size: 50px;
 	margin-bottom: -10px;
-	font-family: "Monaco";
+	font-family: 'Karla', sans-serif;
 	color: gray;
  }
 
@@ -89,7 +75,7 @@ a {
     padding: 1px;
       text-align: center;
     color: gray;
-    font-family: "Monaco";
+	font-family: 'Quattrocento Sans', sans-serif;
     font-style: italic;
 
   }
