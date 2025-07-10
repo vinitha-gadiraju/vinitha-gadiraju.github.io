@@ -55,6 +55,21 @@ body.dark-mode {
   outline: 2px solid var(--highlight);
 }
 
+body.dark-mode .dark-mode-toggle,
+body.dark-mode #back-to-top {
+  background: #5a4632; /* lighter brown for dark mode */
+  color: var(--heading);
+}
+
+body.dark-mode .dark-mode-toggle:hover,
+body.dark-mode .dark-mode-toggle:focus,
+body.dark-mode #back-to-top:hover,
+body.dark-mode #back-to-top:focus {
+  background: #7c6243; /* even lighter brown on hover/focus */
+  color: var(--bg);
+  outline: 2px solid var(--highlight);
+}
+
 body {
   font-family: 'Barlow', 'Inter', 'Segoe UI', Arial, sans-serif;
   background: var(--bg);
@@ -323,6 +338,17 @@ a:focus, button:focus, input:focus {
     font-size: 1rem;
     margin-bottom: 0.5rem;
   }
+
+  .sidebar-trademark {
+  margin-top: auto;
+  padding-top: 1.5rem;
+  font-size: 0.95rem;
+  color: var(--link);
+  text-align: center;
+  opacity: 0.7;
+  letter-spacing: 0.01em;
+}
+
   .content-sections {
     padding: 1rem 0.5rem;
     gap: 1rem;
@@ -420,8 +446,6 @@ a:focus, button:focus, input:focus {
   text-decoration: underline;
 }
 
-/* ...existing code... */
-
 #back-to-top {
   display: none;
   position: fixed;
@@ -447,6 +471,7 @@ a:focus, button:focus, input:focus {
   color: var(--heading);
   outline: 2px solid var(--highlight);
 }
+
 @media (max-width: 600px) {
   #back-to-top {
     bottom: 1rem;
