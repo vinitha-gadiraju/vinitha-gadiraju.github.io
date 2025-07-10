@@ -419,3 +419,31 @@ a:focus, button:focus, input:focus {
   color: var(--link-hover);
   text-decoration: underline;
 }
+
+/* ...existing code... */
+
+#back-to-top {
+  display: none;
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+  background: var(--toggle-bg);
+  color: var(--text);
+  border: none;
+  box-shadow: 0 2px 8px rgba(100,80,60,0.15);
+  font-size: 1.5rem;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  z-index: 3000;
+  transition: background 0.3s, color 0.3s, opacity 0.2s;
+}
+#back-to-top:hover,
+#back-to-top:focus {
+  background: var(--highlight);
+  color: var(--heading);
+  outline: 2px solid var(--highlight);
+}
