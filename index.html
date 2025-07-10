@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>Vinitha Gadiraju</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <button class="dark-mode-toggle" aria-pressed="false" aria-label="Toggle dark mode"
+    onclick="
+      document.body.classList.toggle('dark-mode');
+      const isDark = document.body.classList.contains('dark-mode');
+      this.setAttribute('aria-pressed', isDark);
+      this.innerHTML = isDark 
+        ? '<span aria-hidden=&quot;true&quot; style=&quot;font-size:1.2em;&quot;>&#9728;</span>' 
+        : '<span aria-hidden=&quot;true&quot; style=&quot;font-size:1.2em;&quot;>&#127769;</span>';
+    ">
+    <span aria-hidden="true" style="font-size:1.2em;">&#127769;</span>
+  </button>
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+  <div class="main-layout">
+    <aside class="sidebar" aria-label="Sidebar with profile, navigation, and news">
+      <header>
+        <img src="metini.png" alt="Vinitha, an Indian woman with tan skin, smiles at the camera holding a small black and white dog closer to her. She has black curly hair that is tied back and stands in front of a restaurant patio." class="profile-pic-large">
+        <h1>Vinitha Gadiraju</h1>
+      </header>
+      <nav class="side-nav" aria-label="Main navigation">
+        <a href="#about">About Me</a>
+        <a href="#publications">Publications</a>
+        <a href="#contact">Contact</a>
+        <a href="Gadiraju_CV.pdf" target="_blank" aria-label="Download CV">Download CV</a>
+      </nav>
+      <section id="news" class="news-section" aria-labelledby="news-heading">
+        <h2 id="news-heading">News</h2>
+        <ul class="news-list">
+          <li>
+            <strong>June 2025:</strong> Joined the inagaural CRA Trustworthy AI Fellowship cohort.
+          </li>
+          <li>
+            <strong>October 2024:</strong> Presented at ASSETS 2024 and my students got second place at the Student Research Competition! 
+          </li>
+          <li>
+            <strong>March 2024:</strong> Received a Google Research Scholar Award.
+          </li>
+          <li>
+            <strong>July 2023:</strong> Started as a tenure-track assistant professor at Wellesley College!
+          </li>
+          <li>
+            <strong>May 2023:</strong> Successfully defended my thesis at the University of Colorado Boulder with the support of my advisor <a href="https://shaunkane.com/" target="_blank">Shaun Kane</a>. Sko Buffs!
+          </li>
+        </ul>
+      </section>
+    </aside>
+    <main class="content-sections" id="main-content" role="main">
+      <section id="about" class="about-section" tabindex="-1" aria-labelledby="about-heading">
+        <h2 id="about-heading">About Me</h2>
+        <p>
+          Hi! I'm Vinitha, a tenure-track assistant professor in the <a href="https://www.wellesley.edu/academics/department/computer-science" target="_blank">Computer Science Department at Wellesley College</a>. 
+        </p>
+        <p>
+          My lab investigates how technology intertwines with the daily, lived experiences of disabled people. We are particularly interested in how and why members of the disability community use (and choose <em>not</em> to use) artificial intelligence tools, and what trust and harm look like during interaction with these emerging technologies. We primarily employ qualitative research methods, such as interviews, diary studies, focus groups, to understand these dynamics. My research has been published in CHI, ASSETS, and FAccT. 
+        </p>
+        <p>
+          I also teach classes relating to these topics, such as Human-Computer Interaction (CS220) and Designing for Accessibility (CS325), as well as Wellesley's introductory programming course (CS111).
+        </p>
+        <p>
+            Outside of work, I love vintage shopping, smelling new perfumes, reading fiction, and obsessing over my dog. 
+        </p>
+      </section>
+      <section id="publications" class="publications-section" tabindex="-1" aria-labelledby="publications-heading">
+        <h2 id="publications-heading">Publications</h2>
+        <ul class="publications-list">
+          <li>
+            <strong>2024:</strong> "It's an independent living skill, but covered with fun!": Prompting At-Home Skill Development for Children with Vision Impairment. <b>Vinitha Gadiraju</b>, Lucia Jayne, Shaun Kane. <em>Proceedings of the 26th International ACM SIGACCESS Conference on Computers and Accessibility (ASSETS)</em>. <a href="https://dl.acm.org/doi/abs/10.1145/3663548.3675626" target="_blank" rel="noopener">Read publication</a>
+          </li>
+           <li>
+            <strong>2023:</strong> "I wouldn't say offensive but...": Disability-Centered Perspectives on Large Language Models. <b>Vinitha Gadiraju</b>, Shaun Kane, Sunipa Dev, Alex Taylor, Ding Wang, Remi Denton, Robin Brewer. <em>Proceedings of the 2023 ACM Conference on Fairness, Accountability, and Transparency (FAccT)</em>. <a href="https://dl.acm.org/doi/abs/10.1145/3593013.3593989" target="_blank" rel="noopener">Read publication</a>
+          </li>
+          <li>
+            <strong>2021:</strong> “It is fascinating to make these beasts fly”: Understanding Visually Impaired People's Motivations and Needs for Drone Piloting. <b>Vinitha Gadiraju</b>, Jérémie Garcia, Shaun Kane, Anke M. Brock. <em>Proceedings of the 23rd International ACM SIGACCESS Conference on Computers and Accessibility (ASSETS)</em>. <a href="https://dl.acm.org/doi/abs/10.1145/3441852.3471219" target="_blank" rel="noopener">Read publication</a>
+          </li>
+          <li>
+            <strong>2021:</strong> Exploring technology design for students with vision impairment in the classroom and remotely. <b>Vinitha Gadiraju</b>, Olwyn Doyle, Shaun Kane. <em>Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems (CHI)</em>. <a href="https://dl.acm.org/doi/abs/10.1145/3411764.3445755" target="_blank" rel="noopener">Read publication</a>
+          </li>
+          <li>
+            <strong>2020:</strong> Brailleblocks: computational braille toys for collaborative learning. <b>Vinitha Gadiraju</b>, Annika Muehlbradt, Shaun Kane. <em>Proceedings of the 2020 CHI conference on human factors in computing systems (CHI)</em>. <a href="https://dl.acm.org/doi/abs/10.1145/3313831.3376295" target="_blank" rel="noopener">Read publication</a>
+          </li>
+        </ul>
+      </section>
+      <section id="contact" class="contact-section" tabindex="-1" aria-labelledby="contact-heading">
+        <h2 id="contact-heading">Contact</h2>
+        <ul class="contact-list">
+          <li>
+            <strong>Email:</strong> <a href="mailto:vg101@wellesley.edu">vinitha.gadiraju@wellesley.edu</a>
+          </li>
+          <li>
+            <strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/vinithagadiraju" target="_blank" rel="noopener">linkedin.com/in/vinithagadiraju</a>
+          </li>
+        </ul>
+      </section>
+    </main>
+  </div>
+</body>
+</html>
