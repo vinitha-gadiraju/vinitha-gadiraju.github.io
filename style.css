@@ -447,3 +447,14 @@ a:focus, button:focus, input:focus {
   color: var(--heading);
   outline: 2px solid var(--highlight);
 }
+@media (max-width: 600px) {
+  #back-to-top {
+    bottom: 1rem;
+    right: 1rem;
+    width: 2.2rem;
+    height: 2.2rem;
+    font-size: 1.2rem;
+    /* Ensure it's not hidden on mobile */
+    /* display: flex;  <-- DO NOT set this here, JS controls display */
+  }
+}
