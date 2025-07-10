@@ -103,5 +103,23 @@
       </section>
     </main>
   </div>
+    <button id="back-to-top" aria-label="Back to top" title="Back to top">
+    ↑
+  </button>
+  <script>
+    // Show/hide button on scroll
+    const backToTop = document.getElementById('back-to-top');
+    window.addEventListener('scroll', () => {
+      if (window.scrollY > 200) {
+        backToTop.style.display = 'flex';
+      } else {
+        backToTop.style.display = 'none';
+      }
+    });
+    // Scroll to top on click
+    backToTop.addEventListener('click', () => {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+  </script>
 </body>
 </html>
